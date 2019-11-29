@@ -32,7 +32,7 @@ def get_filters():
 
 
     #  get user input for day of week (all, monday, tuesday, ... sunday)
-    day=input('Enter the day to filter by between Monday to Sunday or not:').lower()
+    day=input('Enter the day  of the week to filter or not:').lower()
     while day not in ['monday','tuesday','wednesday','thursday','friday','saturday','sunday','all']:
           day=input('Enter the day to filter by between Monday to Sunday or not:').lower()
     print('-'*40)
