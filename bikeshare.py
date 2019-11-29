@@ -20,13 +20,13 @@ def get_filters():
 
     city=input('Enter your city name:').lower()
     while city not in ['chicago','new york','washington']:
-          city=input('sorry not in the range please pick from these three cities chicago ,new york or washington :').lower()
+          city=input('sorry not in the range please pick from these three cities chicago ,new york or washington and press enter:').lower()
 
     if city.lower() == "new york":
         city+= " city"
 
     #  get user input for month (all, january, february, ... , june)
-    month=input('Enter the month to filter by between January to June :').lower
+    month=input('Enter the month to filter by between January to June :').lower()
     while month not in ['January', 'February', 'March', 'April', 'May', 'June','all']:
           month=input('Enter the month to filter by between January to June or not and make sure that the first letter in the upper case :')
 
